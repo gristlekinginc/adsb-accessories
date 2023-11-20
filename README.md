@@ -29,7 +29,9 @@ This Python script analyzes data from an ADS-B receiver tracking aircraft, speci
 ### Example Output
 
 ```
-Unique aircraft in the last 15 minutes: [Number]
+Unique aircraft in the last 15 minutes: 99
+Maximum range seen: 115.8 nautical miles
+Average range seen: 51.0 nautical miles
 ```
 
 ### Customization
