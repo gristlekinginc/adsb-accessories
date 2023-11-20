@@ -1,6 +1,4 @@
-Certainly! Below is a properly formatted README file for your GitHub repository that describes the Python script's functionality:
-
----
+The scripts in here serve to help you understand more about your ADS-B setup.  I'm mostly interested in analyzing data for Wingbits, as it's a fun project, but this can apply to any of the [Wiedehopf's ADS-B setups](https://github.com/wiedehopf).
 
 # ADS-B Unique Aircraft Tracker
 
