@@ -38,7 +38,11 @@ def main():
     file_path = '/run/readsb/aircraft.json'
     aircraft_data = read_json_file(file_path)
     avg_period = calculate_average_period(aircraft_data)
-    print(f"Average time period for receiving at least 2 messages from 100 unique flights: {avg_period} minutes")
+
+    # Format output to show up to two decimal places for times less than a minute
+    formatted_avg_period = f"{avg_period:.2f}" if avg_period < 1 else str(avg_period)
+    
+    print(f"Average time period for receiving at least 2 messages from 100 unique flights: {formatted_avg_period} minutes")
 
 if __name__ == "__main__":
     main()
