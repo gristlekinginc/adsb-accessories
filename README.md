@@ -37,7 +37,6 @@ Unique aircraft in the last 15 minutes: [Number]
 - **Time Frame Adjustment:** Change the `minutes` argument in the `filter_data_by_time` function to analyze a different time period.
 - **File Path:** Update the `file_path` variable in the `main` function if your `aircraft.json` is located elsewhere.
 
-Certainly! Below is a formatted README file for GitHub, explaining the provided Python script:
 
 ---
 
